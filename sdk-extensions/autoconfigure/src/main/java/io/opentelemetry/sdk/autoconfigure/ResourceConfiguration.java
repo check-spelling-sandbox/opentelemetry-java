@@ -114,8 +114,8 @@ public final class ResourceConfiguration {
 
   // visible for testing
   static Resource filterAttributes(Resource resource, ConfigProperties configProperties) {
-    List<String> disabledAttibuteKeys = configProperties.getList(DISABLED_ATTRIBUTE_KEYS);
-    Set<String> disabledKeys = new HashSet<>(disabledAttibuteKeys);
+    List<String> disabledAttributeKeys = configProperties.getList(DISABLED_ATTRIBUTE_KEYS);
+    Set<String> disabledKeys = new HashSet<>(disabledAttributeKeys);
 
     ResourceBuilder builder =
         resource.toBuilder().removeIf(attributeKey -> disabledKeys.contains(attributeKey.getKey()));
