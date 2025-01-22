@@ -1321,7 +1321,7 @@ This release is a notable release for metrics:
   of `Aggregation.base2ExponentialBucketHistogram()` for histogram instruments. If using OTLP
   exporter with autoconfigure,
   set `OTEL_EXPORTER_OTLP_METRICS_DEFAULT_HISTOGRAM_AGGREGATION=BASE2_EXPONENTIAL_BUCKET_HISTOGRAM`.
-  If using configuring OTLP programatically,
+  If using configuring OTLP programmatically,
   use `Otlp*MetricExporterBuilder#setDefaultAggregationSelector(DefaultAggregationSelector)`.
 * The metrics SDK undergone significant internal refactoring which results in reduced complexity and
   significantly reduced memory allocation during metric collection / export.
