@@ -130,7 +130,7 @@ public abstract class AbstractDefaultMeterTest {
   }
 
   @Test
-  void noopLongGauage_doesNotThrow() {
+  void noopLongGauge_doesNotThrow() {
     LongGauge gauge =
         meter
             .gaugeBuilder("temperature")
@@ -154,7 +154,7 @@ public abstract class AbstractDefaultMeterTest {
   }
 
   @Test
-  void noopObservableLongGauage_doesNotThrow() {
+  void noopObservableLongGauge_doesNotThrow() {
     meter
         .gaugeBuilder("temperature")
         .ofLongs()
@@ -168,7 +168,7 @@ public abstract class AbstractDefaultMeterTest {
   }
 
   @Test
-  void noopDoubleGauage_doesNotThrow() {
+  void noopDoubleGauge_doesNotThrow() {
     DoubleGauge gauge =
         meter
             .gaugeBuilder("temperature")
@@ -190,7 +190,7 @@ public abstract class AbstractDefaultMeterTest {
   }
 
   @Test
-  void noopObservableDoubleGauage_doesNotThrow() {
+  void noopObservableDoubleGauge_doesNotThrow() {
     meter
         .gaugeBuilder("temperature")
         .setDescription("The current temperature")
