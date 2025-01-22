@@ -29,7 +29,7 @@ import javax.annotation.Nullable;
 
 /**
  * Properties are normalized to The properties for both of these will be normalized to be all lower
- * case, dashses are replaces with periods, and environment variable underscores are replaces with
+ * case, dashes are replaces with periods, and environment variable underscores are replaces with
  * periods.
  *
  * <p>This class is internal and is hence not for public use. Its APIs are unstable and can change
