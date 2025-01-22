@@ -45,7 +45,7 @@ public final class HistogramAssert extends AbstractAssert<HistogramAssert, Histo
       failWithActualExpectedAndMessage(
           actual,
           "aggregationTemporality: DELTA",
-          "Expected Histgram to have cumulative aggregation but found <%s>",
+          "Expected Histogram to have cumulative aggregation but found <%s>",
           AggregationTemporality.DELTA,
           actual.getAggregationTemporality());
     }
