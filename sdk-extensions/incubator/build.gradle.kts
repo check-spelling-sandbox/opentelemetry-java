@@ -95,7 +95,7 @@ jsonSchema2Pojo {
   // Clear old source files to avoid contaminated source dir when updating
   removeOldOutput = true
 
-  // Include @Nullable annotation. Note: jsonSchmea2Pojo will not add @Nullable annotations on getters
+  // Include @Nullable annotation. Note: jsonSchema2Pojo will not add @Nullable annotations on getters
   // so we perform some steps in jsonSchema2PojoPostProcessing to add these.
   includeJsr305Annotations = true
 
