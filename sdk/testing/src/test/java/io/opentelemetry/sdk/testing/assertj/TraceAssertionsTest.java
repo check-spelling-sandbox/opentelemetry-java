@@ -674,7 +674,7 @@ class TraceAssertionsTest {
     Collection<List<SpanData>> traces = new ArrayList<>();
     traces.add(Arrays.asList(buildTestSpan(SPAN_ID1, "span1"), buildTestSpan(SPAN_ID2, "span2")));
 
-    // test asserting spans in exact oder
+    // test asserting spans in exact order
     TracesAssert.assertThat(traces)
         .hasTracesSatisfyingExactly(
             trace ->
@@ -690,7 +690,7 @@ class TraceAssertionsTest {
         .hasMessageStartingWith(
             "[Trace 0] " + System.lineSeparator() + "Expected size: 1 but was: 2");
 
-    // test asserting spans in wrong oder
+    // test asserting spans in wrong order
     assertThatThrownBy(
             () ->
                 TracesAssert.assertThat(traces)
