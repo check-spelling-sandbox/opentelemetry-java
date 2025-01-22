@@ -190,7 +190,7 @@ public final class AsynchronousMetricStorage<T extends PointData, U extends Exem
       long startEpochNanos,
       long epochNanos) {
     if (memoryMode == REUSABLE_DATA) {
-      // Collect can not run concurrently for same reader, hence we safely assume
+      // Collect cannot run concurrently for same reader, hence we safely assume
       // the previous collect result has been used and done with
       reusableResultList.forEach(reusablePointsPool::returnObject);
       reusableResultList.clear();

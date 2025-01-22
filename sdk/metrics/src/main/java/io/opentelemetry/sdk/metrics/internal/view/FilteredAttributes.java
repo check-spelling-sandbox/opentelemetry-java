@@ -213,7 +213,7 @@ abstract class FilteredAttributes implements Attributes {
     }
     // We require other object to also be instances of FilteredAttributes. In other words, where one
     // FilteredAttributes is used for a key in a map, it must be used for all the keys. Note, this
-    // same requirement exists for the default Attributes implementation - you can not mix
+    // same requirement exists for the default Attributes implementation - you cannot mix
     // implementations.
     if (object == null || !(object instanceof FilteredAttributes)) {
       return false;
