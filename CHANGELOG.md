@@ -2082,7 +2082,7 @@ default `otel.metrics.exporter` is set to `otlp` instead of `none`.
 #### Metrics
 
 * BREAKING: Remove `MetricReader` factory pattern:
-  * `MetricReader` instances, rather than `MetricReaderFacotry`, are registered
+  * `MetricReader` instances, rather than `MetricReaderFactory`, are registered
     with `SdkMeterProviderBuilder`. For
     example: `SdkMeterProvider.builder().registerMetricReader(PeriodicMetricReader.builder(exporter).build())`.
   * `MetricReader` does not support custom implementations. Built-in readers
