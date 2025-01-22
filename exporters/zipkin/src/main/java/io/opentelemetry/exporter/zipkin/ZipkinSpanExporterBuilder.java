@@ -42,7 +42,7 @@ public final class ZipkinSpanExporterBuilder {
    *
    * @param sender the Zipkin sender implementation.
    * @return this.
-   * @deprecated Use {@link #setSender(BytesMessageSender)} insteead.
+   * @deprecated Use {@link #setSender(BytesMessageSender)} instead.
    */
   @Deprecated
   public ZipkinSpanExporterBuilder setSender(zipkin2.reporter.Sender sender) {
