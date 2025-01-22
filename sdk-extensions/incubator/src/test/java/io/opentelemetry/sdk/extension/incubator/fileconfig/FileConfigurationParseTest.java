@@ -502,7 +502,7 @@ class FileConfigurationParseTest {
         FileConfiguration.parse(
             new ByteArrayInputStream(objectPlaceholderString.getBytes(StandardCharsets.UTF_8)));
 
-    String noOjbectPlaceholderString =
+    String noObjectPlaceholderString =
         "file_format: \"0.3\"\n"
             + "tracer_provider:\n"
             + "  processors:\n"
@@ -518,7 +518,7 @@ class FileConfigurationParseTest {
             + "          drop:\n";
     OpenTelemetryConfigurationModel noObjectPlaceholderModel =
         FileConfiguration.parse(
-            new ByteArrayInputStream(noOjbectPlaceholderString.getBytes(StandardCharsets.UTF_8)));
+            new ByteArrayInputStream(noObjectPlaceholderString.getBytes(StandardCharsets.UTF_8)));
 
     SpanExporterModel exporter =
         noObjectPlaceholderModel
