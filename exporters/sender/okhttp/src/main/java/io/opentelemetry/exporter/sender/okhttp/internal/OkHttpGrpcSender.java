@@ -199,7 +199,7 @@ public final class OkHttpGrpcSender<T extends Marshaler> implements GrpcSender<T
     return CompletableResultCode.ofSuccess();
   }
 
-  /** Whether response is retriable or not. */
+  /** Whether response is retryable or not. */
   public static boolean isRetryable(Response response) {
     // We don't check trailers for retry since retryable error codes always come with response
     // headers, not trailers, in practice.
