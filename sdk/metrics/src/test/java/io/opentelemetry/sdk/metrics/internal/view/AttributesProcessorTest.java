@@ -127,7 +127,7 @@ class AttributesProcessorTest {
   }
 
   @Test
-  void proccessors_joinByThen() {
+  void processors_joinByThen() {
     // Baggage should be added, then all keys filtered.
     AttributesProcessor processor =
         AttributesProcessor.appendBaggageByKeyName(ignored -> true)
