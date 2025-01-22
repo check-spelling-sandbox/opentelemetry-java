@@ -20,7 +20,7 @@ class SystemClockTest {
   @Test
   void now_millisPrecision() {
     // If we test many times, we can be fairly sure we didn't just get lucky with having a rounded
-    // result on a higher than expected precision timestamp.
+    // result in a better than expected precision timestamp.
     for (int i = 0; i < 100; i++) {
       long now = SystemClock.getInstance().now();
       assertThat(now % 1000000).isZero();
@@ -45,7 +45,7 @@ class SystemClockTest {
   @Test
   void now_lowPrecision() {
     // If we test many times, we can be fairly sure we didn't just get lucky with having a rounded
-    // result on a higher than expected precision timestamp.
+    // result in a better than expected precision timestamp.
     for (int i = 0; i < 100; i++) {
       long now = SystemClock.getInstance().now(false);
       assertThat(now % 1000000).isZero();
