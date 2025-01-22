@@ -43,7 +43,7 @@ public abstract class AbstractDefaultMeterTest {
   void noopMeterProvider_builderDoesNotThrow() {
     MeterProvider provider = getMeterProvider();
     provider.meterBuilder("user-instrumentation").build();
-    provider.meterBuilder("advanced-instrumetnation").setInstrumentationVersion("1.0").build();
+    provider.meterBuilder("advanced-instrumentation").setInstrumentationVersion("1.0").build();
     provider.meterBuilder("schema-instrumentation").setSchemaUrl("myschema://url").build();
     provider
         .meterBuilder("schema-instrumentation")
