@@ -1139,7 +1139,7 @@ dictate how logs are processed and exported.
   ([#5368](https://github.com/open-telemetry/opentelemetry-java/pull/5368))
 * Log SDK cleanup. Move `InMemoryLogRecordExporter` to `opentelemetry-sdk-logs-testing`.
   Rename `InMemoryLogRecordExporter#getFinishedLogItems` to `getFinishedLogRecordItems`.
-  Move `SdkEventEmitterProvder` to internal package.
+  Move `SdkEventEmitterProvider` to internal package.
   ([#5368](https://github.com/open-telemetry/opentelemetry-java/pull/5368))
 
 ### Exporters
@@ -1406,7 +1406,7 @@ This release is a notable release for metrics:
   ([#5087](https://github.com/open-telemetry/opentelemetry-java/pull/5087))
 * WARNING: Minimize public surface area of OpenTracingShim. Remove `createTracerShim()`
   , `createTracerShim(Tracer)`, `createTracerShim(Tracer, OpenTracingPropagators)`.
-  Add `createTracerShim(TracerProvder,TextMapPropagator,TextMapPropagator)`.
+  Add `createTracerShim(TracerProvider,TextMapPropagator,TextMapPropagator)`.
   ([#5110](https://github.com/open-telemetry/opentelemetry-java/pull/5110))
 
 ### Project tooling
@@ -3251,7 +3251,7 @@ will be removed in the next release.
 - The `InstrumentSelector.newBuilder()` method has been renamed to `InstrumentSelector.builder()` and
 the methods on the Builder have changed to use the same naming patterns as the rest of the project.
 - The `MeterProviderFactorySdk` class has been renamed to `SdkMeterProviderFactory`.
-- The `SdkMeterProvicer.Builder` has been moved to the top level `SdkMeterProviderBuilder`.
+- The `SdkMeterProvider.Builder` has been moved to the top level `SdkMeterProviderBuilder`.
 - The `InstrumentSelector` now requires an instrument type to be provided, and defaults the name regex to `.*`.
 
 ## Version 0.13.0 (2020-12-17)
