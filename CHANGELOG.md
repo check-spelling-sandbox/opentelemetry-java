@@ -31,7 +31,7 @@
 
 #### Exporters
 
-* OTLP: Update opentelementry-proto to 1.4
+* OTLP: Update opentelemetry-proto to 1.4
   ([#6906](https://github.com/open-telemetry/opentelemetry-java/pull/6906))
 * OTLP: Rename internal Marshaler#writeJsonToGenerator method to allow jackson runtimeOnly dependency
   ([#6896](https://github.com/open-telemetry/opentelemetry-java/pull/6896))
