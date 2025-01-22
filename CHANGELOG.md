@@ -2909,7 +2909,7 @@ provide extended functionality, and we can figure out how best to solve your use
 - `TraceStateBuilder.set(String, String)` has been renamed to `TraceStateBuilder.put(String, String)`.
 - `BaggageBuilder.setParent()` and `BaggageBuilder.setNoParent()` have been removed from the Baggage APIs.
 In addition, Baggage will no longer be implicitly generated from Baggage that is in the current context. You now must explicitly
-get the `Baggage` instance from the `Context` and call `toBuilder()` on it in order to get the entries pre-populated in your builder.
+get the `Baggage` instance from the `Context` and call `toBuilder()` on it in order to get the entries prepopulated in your builder.
 - `TextMapPropagator.Setter` and `TextMapPropagator.Getter` have been moved to the top level and renamed to
 `TextMapSetter` and `TextMapGetter` respectively.
 - `OpenTelemetry.getDefault()` has been renamed to `OpenTelemetry.noop()`.
