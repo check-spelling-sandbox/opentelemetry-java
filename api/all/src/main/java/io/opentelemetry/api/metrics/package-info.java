@@ -7,7 +7,7 @@
  * This package describes the Metrics API that can be used to record application Metrics.
  *
  * <p>The primary entry point to Metrics is the {@link io.opentelemetry.api.metrics.MeterProvider},
- * which allows the construction of a {@link io.opentelemetry.api.metrics.Meter}. Instrumentated
+ * which allows the construction of a {@link io.opentelemetry.api.metrics.Meter}. Instrumented
  * libraries should construct a single {@link io.opentelemetry.api.metrics.Meter} and register
  * `instruments` via the builders available on {@link io.opentelemetry.api.metrics.Meter}.
  *
