@@ -2862,7 +2862,7 @@ to add views have been deprecated. They will be removed in the next release.
 This releases marks the first stable release for the tracing, baggage and context APIs and the SDK.
 Please see the [Versioning](VERSIONING.md) document for stability guarantees.
 
-The best source of lsit of the now stable packages can be found in the
+The best source of lists of the now stable packages can be found in the
 [opentelemetry-bom](https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-bom/1.0.0/opentelemetry-bom-1.0.0.pom)
 artifact in maven central.
 
