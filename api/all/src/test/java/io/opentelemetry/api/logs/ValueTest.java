@@ -89,7 +89,7 @@ class ValueTest {
   }
 
   @Test
-  void value_OfvalueArray() {
+  void value_OfValueArray() {
     assertThat(Value.of(Value.of(true), Value.of(1L)))
         .satisfies(
             value -> {
