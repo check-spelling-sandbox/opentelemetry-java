@@ -30,7 +30,7 @@ public abstract class ImmutableSummaryPointData implements SummaryPointData {
    * @param epochNanos The ending time for the period when this value was sampled.
    * @param attributes The set of attributes associated with this point.
    * @param count The number of measurements being sumarized.
-   * @param sum The sum of measuremnts being sumarized.
+   * @param sum The sum of measurements being sumarized.
    * @param percentileValues Calculations of percentile values from measurements.
    */
   public static ImmutableSummaryPointData create(
