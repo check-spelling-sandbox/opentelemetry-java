@@ -1413,7 +1413,7 @@ class SdkSpanTest {
   }
 
   private void spanDoWork(
-      SdkSpan span, @Nullable StatusCode canonicalCode, @Nullable String descriptio) {
+      SdkSpan span, @Nullable StatusCode canonicalCode, @Nullable String description) {
     span.setAttribute("MySingleStringAttributeKey", "MySingleStringAttributeValue");
     attributes.forEach(span::setAttribute);
     testClock.advance(Duration.ofSeconds(1));
@@ -1421,7 +1421,7 @@ class SdkSpanTest {
     testClock.advance(Duration.ofSeconds(1));
     span.updateName(SPAN_NEW_NAME);
     if (canonicalCode != null) {
-      span.setStatus(canonicalCode, descriptio);
+      span.setStatus(canonicalCode, description);
     }
   }
 
