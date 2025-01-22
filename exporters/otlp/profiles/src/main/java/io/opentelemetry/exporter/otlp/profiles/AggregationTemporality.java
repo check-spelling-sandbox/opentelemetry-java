@@ -10,7 +10,7 @@ package io.opentelemetry.exporter.otlp.profiles;
  *
  * <p>TODO: This is intentionally not the same as metrics/AggregationTemporality. For profiles.proto
  * 'v1development' version, this class is considered distinct from the pre-exiting
- * AggregationTemporality in metrics.proto. As the profiles.proto stabilises, they may be refactored
+ * AggregationTemporality in metrics.proto. As the profiles.proto stabilizes, they may be refactored
  * into a version in common.proto. Meanwhile the Java class structure reflects the .proto structure
  * in making distinct entities.
  *
