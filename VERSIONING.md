@@ -46,7 +46,7 @@ Backwards incompatible changes to `internal` packages are expected. Versions of 
 are expected to be aligned by using BOMs we publish. We will always provide BOMs to allow alignment
 of versions.
 
-Changes may be made that require changes to the an app's dependency declarations aside from just
+Changes may be made that require changes to an app's dependency declarations aside from just
 incrementing the version on `MINOR` version updates. For example, code may be separated out to a
 new artifact which requires adding the new artifact to dependency declarations.
 
