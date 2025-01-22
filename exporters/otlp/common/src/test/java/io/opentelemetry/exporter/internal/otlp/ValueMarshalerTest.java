@@ -138,7 +138,7 @@ class ValueMarshalerTest {
     // Our marshaler should produce the exact same length of serialized output (for example, field
     // default values are not outputted), so we check that here. The output itself may have slightly
     // different ordering, mostly due to the way we don't output oneof values in field order all the
-    // tieme. If the lengths are equal and the resulting protos are equal, the marshaling is
+    // time. If the lengths are equal and the resulting protos are equal, the marshaling is
     // guaranteed to be valid.
     assertThat(result.getSerializedSize()).isEqualTo(serialized.length);
 
