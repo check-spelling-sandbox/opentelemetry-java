@@ -9,7 +9,7 @@ When preparing the change log, you can use
 the [draft-change-log-entries.sh](./.github/scripts/draft-change-log-entries.sh) script to assist
 with drafting. Alternatively,
 use `git log upstream/v$MAJOR.$((MINOR-1)).x..upstream/v$MAJOR.$MINOR.x --graph --first-parent` or
-the Github [compare tool](https://github.com/open-telemetry/opentelemetry-java/compare/) to view a
+the GitHub [compare tool](https://github.com/open-telemetry/opentelemetry-java/compare/) to view a
 summary of all commits since last release as a reference.
 
 ## Release cadence
@@ -80,7 +80,7 @@ Create a PR against the main branch with the changes.
 
 ## Credentials
 
-The following credentials are required for building or publishing (and automatically set in Github Actions):
+The following credentials are required for building or publishing (and automatically set in GitHub Actions):
 
 * `GPG_PRIVATE_KEY` and `GPG_PASSWORD`: GPG private key and password for signing.
 * `SONATYPE_USER` and `SONATYPE_KEY`: Sonatype username and password.
@@ -95,9 +95,9 @@ The following credentials are required for building or publishing (and automatic
 
 Additionally, credentials are stored with maintainers via
 the [OpenTelemetry 1Password](https://opentelemetry.1password.com/signin) account. The following
-defines the mapping from Github Action secret keys to 1Password keys:
+defines the mapping from GitHub Action secret keys to 1Password keys:
 
-| Github Actions Key | 1Password Key |
+| GitHub Actions Key | 1Password Key |
 |--------------------|---------------|
 | `GPG_PASSWORD` | `opentelemetry-java GPG_PASSWORD` |
 | `GPG_PRIVATE_KEY` | `opentelemetry-java GPG_PRIVATE_KEY` |
