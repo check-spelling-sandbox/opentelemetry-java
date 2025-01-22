@@ -1174,7 +1174,7 @@ dictate how logs are processed and exported.
 * Fix a parameter name typo in autoconfigure-spi module.
   ([#5409](https://github.com/open-telemetry/opentelemetry-java/pull/5409))
 
-### Semantic Conventinos
+### Semantic Conventions
 
 * Add missing links to deprecated constants in SemanticAttributes.
   ([#5406](https://github.com/open-telemetry/opentelemetry-java/pull/5406))
