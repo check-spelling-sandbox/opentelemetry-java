@@ -517,7 +517,7 @@
 
 ## Version 1.35.0 (2024-02-09)
 
-**NOTE:** The `opentelemetry-exporter-jaeger` and `opentelemetry-exporter-jaeger-thift` artifacts
+**NOTE:** The `opentelemetry-exporter-jaeger` and `opentelemetry-exporter-jaeger-thrift` artifacts
 have stopped being published. Jaeger
 has [native support for OTLP](https://opentelemetry.io/blog/2022/jaeger-native-otlp/), and users
 should export to jaeger
@@ -602,7 +602,7 @@ instead.
 ## Version 1.34.0 (2024-01-05)
 
 **NOTE:** This is the LAST release for `opentelemetry-exporter-jaeger`
-and `opentelemetry-exporter-jaeger-thift`. Jaeger
+and `opentelemetry-exporter-jaeger-thrift`. Jaeger
 has [native support for OTLP](https://opentelemetry.io/blog/2022/jaeger-native-otlp/), and users
 should export to jaeger
 using OTLP
