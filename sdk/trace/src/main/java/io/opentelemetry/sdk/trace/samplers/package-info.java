@@ -22,7 +22,7 @@
  *
  * <p>{@link io.opentelemetry.sdk.trace.samplers.Sampler#traceIdRatioBased(double)} : This strategy
  * will sample the provided fraction of Spans, deterministically based on the TraceId of the Spans.
- * This means that all spans from the a given trace will have the same sampling result.
+ * This means that all spans from a given trace will have the same sampling result.
  *
  * <p>{@link
  * io.opentelemetry.sdk.trace.samplers.Sampler#parentBased(io.opentelemetry.sdk.trace.samplers.Sampler)}
