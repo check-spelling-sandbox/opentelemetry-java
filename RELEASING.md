@@ -84,7 +84,7 @@ The following credentials are required for building or publishing (and automatic
 
 * `GPG_PRIVATE_KEY` and `GPG_PASSWORD`: GPG private key and password for signing.
 * `SONATYPE_USER` and `SONATYPE_KEY`: Sonatype username and password.
-  * Each maintainer will have their own set of Sonotype credentials with permission to publish to
+  * Each maintainer will have their own set of Sonatype credentials with permission to publish to
     the `io.opentelemetry` group prefix.
   * [Register to publish](https://central.sonatype.org/register/central-portal/#and-publishing-is-easy)
     and comment on [OSSRH-63768](https://issues.sonatype.org/browse/OSSRH-63768) with confirmation
