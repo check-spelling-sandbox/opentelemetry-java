@@ -2595,7 +2595,7 @@ should not be many. Thanks for bearing with us on this.
 
 ### Auto-configuration (alpha)
 - BREAKING CHANGE: `io.opentelemetry.sdk.autoconfigure.ConfigProperties` in the `opentelemetry-sdk-extension-autoconfigure` is now an interface
-  and `io.opentelemetry.sdk.autoconfigure.OpenTelemetrySdkAutoConfiguration.initiatize()` now accepts an optional `ConfigProperties`
+  and `io.opentelemetry.sdk.autoconfigure.OpenTelemetrySdkAutoConfiguration.initialize()` now accepts an optional `ConfigProperties`
   instance to add properties to the standard auto-detected ones.
 - BREAKING CHANGE: `OpenTelemetrySdkAutoConfiguration.getResource()` has been removed in favor of using the new `OpenTelemetryResourceAutoConfiguration` class.
 - The `opentelemetry-sdk-extension-autoconfigure` module now exposes a new `OpenTelemetryResourceAutoConfiguration`
