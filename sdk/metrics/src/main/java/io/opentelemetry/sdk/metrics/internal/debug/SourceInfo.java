@@ -26,7 +26,7 @@ public interface SourceInfo {
    *
    * <pre>
    *   at full.package.name.method MyFile.java:15
-   *   at full.packae.name.otherMethod MyOtherFile.java:10
+   *   at full.package.name.otherMethod MyOtherFile.java:10
    * </pre>
    */
   String multiLineDebugString();
