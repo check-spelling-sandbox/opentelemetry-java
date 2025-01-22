@@ -3010,7 +3010,7 @@ and assume the id starts at the beginning.
 
 - The `W3CTraceContextPropagator` class now directly implements the `TextMapPropagator` interface.
 - The `OpenTelemetry` interface now has a `getDefault()` method which will return a completely no-op implementation.
-- The `OpenTelmmetry` interface now has a `getPropagating(ContextPropagators propagators)` method which will
+- The `OpenTelemetry` interface now has a `getPropagating(ContextPropagators propagators)` method which will
 return an implementation that contains propagators, but is otherwise no-op.
 
 #### Misc Notes
@@ -3550,7 +3550,7 @@ See the `opentelemetry-extension-kotlin` module for details.
 
 #### Breaking changes
 
-- `TraceConfig` configuration option names (environment variables and system properties) were renamed to match the OpenTelemetery Specification.
+- `TraceConfig` configuration option names (environment variables and system properties) were renamed to match the OpenTelemetry Specification.
 - The Jaeger gRPC exporter was updated to match the OpenTelemetry Specification. The `message` log entry attribute has been renamed to `event` and a new `dropped attributes count` attribute was added. For more information, see the [Overview](https://github.com/open-telemetry/opentelemetry-specification/blob/master/specification/overview.md).
 - The `SpanData.getHasRemoteParent()` and `SpanData.getHasEnded()` methods were renamed to `hasRemoteParent()` and `hasEnded()`, respectively.
 - The `IdsGenerator` interface has been renamed to `IdGenerator`, and all implementations and relevant factory methods were similarly renamed.
