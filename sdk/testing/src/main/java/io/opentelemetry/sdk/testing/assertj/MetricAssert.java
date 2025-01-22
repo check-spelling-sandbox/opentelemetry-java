@@ -145,7 +145,7 @@ public final class MetricAssert extends AbstractAssert<MetricAssert, MetricData>
     if (actual.getType() != MetricDataType.DOUBLE_SUM) {
       failWithActualExpectedAndMessage(
           actual,
-          "type: DOULE_SUM",
+          "type: DOUBLE_SUM",
           "Expected MetricData to have type <%s> but found <%s>",
           MetricDataType.DOUBLE_SUM,
           actual.getType());
