@@ -2288,7 +2288,7 @@ should not be many. Thanks for bearing with us on this.
 * Metrics exporters can have temporality configured
 * HTTP exporters now support experimental retry
 * Jaeger exporter allows setting trusted certificates
-* gRPC exporter metric typos corected
+* gRPC exporter metric typos corrected
 
 #### Metrics
 
