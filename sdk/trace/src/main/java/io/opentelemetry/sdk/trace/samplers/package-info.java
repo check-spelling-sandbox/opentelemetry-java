@@ -27,7 +27,7 @@
  * <p>{@link
  * io.opentelemetry.sdk.trace.samplers.Sampler#parentBased(io.opentelemetry.sdk.trace.samplers.Sampler)}
  * : This strategy will always use the sampled state of the parent span when deciding whether to
- * sample a Span or not. If the the Span has no parent, the provided "root" Sampler will be used for
+ * sample a Span or not. If the Span has no parent, the provided "root" Sampler will be used for
  * that decision. The parent-based strategy is highly configurable, using the {@link
  * io.opentelemetry.sdk.trace.samplers.ParentBasedSamplerBuilder} which can be acquired from the
  * {@link
