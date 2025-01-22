@@ -36,7 +36,7 @@ dependencies {
 
   jmh(project(":sdk:metrics"))
   jmh(project(":sdk:testing")) {
-    // JMH doesn"t handle dependencies that are duplicated between the main and jmh
+    // JMH doesn't handle dependencies that are duplicated between the main and jmh
     // configurations properly, but luckily here it"s simple enough to just exclude transitive
     // dependencies.
     isTransitive = false
