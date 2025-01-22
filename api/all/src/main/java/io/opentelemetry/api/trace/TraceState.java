@@ -12,7 +12,7 @@ import javax.annotation.concurrent.Immutable;
 
 /**
  * Carries tracing-system specific context in a list of key-value pairs. TraceState allows different
- * vendors propagate additional information and inter-operate with their legacy Id formats.
+ * vendors propagate additional information and inter-operate with their legacy ID formats.
  *
  * <p>Implementation is optimized for a small list of key-value pairs.
  *
